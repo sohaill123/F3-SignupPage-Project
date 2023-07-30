@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h3 style="color: rgb(172, 170, 168); font-size: 15px;">Welcome back! <span><img style="height: 20px; width: 20px;" src="img.png" alt=""></span></h3>
+        <h1>Sign up to your account</h1>
+
+    <form>
+        <div class="input-tags">
+            <label for="name">Your name</label><br>
+            <input type='text' id="name"/>
+        </div>
+        <div class="input-tags">
+            <label for="email">Your email</label><br>
+            <input type='email' id="email" />
+        </div>
+        <div class="input-tags">
+            <label for="password">Password</label><br>
+            <input type='password' id="password" />
+        </div>
+        <div class="input-tags">
+            <label for="confirmPassword">Confirm Password</label><br>
+            <input type='password' id="confirmPassword" />
+        </div>
+        <br>
+        <button type="submit" id="signinBtn">CONTINUE</button>
+    </form>
+    <h4>Dont't have an account ?<button id="signUpRedirect"><a href="">Sign up</a></button></h4>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

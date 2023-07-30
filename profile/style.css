@@ -1,0 +1,24 @@
+#profile-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+#profile-info > p{
+    margin: 0px;
+    font-size: 20px;
+    color: rgb(71, 71, 71);
+}
+#info{
+    margin-left: 15px;
+     background-color: #625BF7;
+     border-radius: 5px;
+     padding: 12px 120px;
+     border: 1px solid rgb(71, 106, 124);
+     color: white;
+     font-size: 15px;
+     font-weight: 500;
+ }
